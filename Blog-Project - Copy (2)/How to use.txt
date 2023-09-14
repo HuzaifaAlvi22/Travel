@@ -1,0 +1,59 @@
+                                                          How to us
+
+
+
+
+First of all the code is described by comments or the code is given certain classes with part name + 
+what the code is doing iit will help you understand it 
+
+Second there is gap after every part of a page code for your understanding so u dont have to be confused
+
+Third the css is also commented or given gap or named part is used before starting any part for your understanding
+
+
+If you still are having problems to understand what part is doing what things read below if you want to or go 
+see pros or cons in the last:
+
+When you open the code you would see display.html page which is the main page this page is commented full + its css
+when you will open any page of the site or its css you see there is a gap the gap indicates next part of page with the 
+word part I mean section of page and even befoe starting a page I have written the part name which is like.part_2 in
+which indicated part 2 of page
+
+
+
+Note:
+ you might see part_2 2 ties in display.html page the first part_2 is part 2 n=but the second is part_4 I didnt changed 
+it becz i thought its not a big deal if you dont want it you can remove it remember part 4 is written as part_2 but the 
+real part 2 is written as part_02 the zero(0) makes difference for understanding of yours
+
+
+
+
+
+
+Pros of the site:
+
+Site can be modified and can be used to sell other items
+Site can be used to do bussinees which can be very usefull
+Site pics are taken from freepick.com which are all free licensed
+Site can be modified easily due to commented all parts
+Site has parallax images on start which will attract your customers
+Site have awesome designs
+Site have loading screen
+Loading screen will help load image perfectly before user can see it 
+Everything like buttons or the pics used for links are responsive which will change with hover 
+to tell user what he is up to
+
+
+cons:
+Site is not fully responsive but for mobile and laptop usage it can work but u need to modify a bit
+
+
+
+
+
+Extra features :
+Loading screen to help maintain a good face of your site
+Designs to response when hovered
+parallax images to attract the customers
+

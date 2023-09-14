@@ -1,0 +1,280 @@
+.body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#screen_loader {
+    background: rgb(38, 38, 38) url(/A\ useful/load-2487_256.gif) no-repeat center center;
+    background-size: 21%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 111;
+}
+
+
+
+
+
+
+
+.just_up {
+    margin-top: -9px;
+}
+
+
+.nav_image {
+    height: 0px;
+    width: 0px;
+    
+}
+
+div.nav_image>img,.image {
+   
+   
+    height: 100px;
+    width: 125px;
+    position: relative;
+    left: 75px;
+    top: -9px;
+    
+
+}
+.image img {
+    position: relative;
+    left: 120px;
+    height: 80px;
+    width: 150px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-color: black;
+    width: 98.8%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation_bar_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: -80px;
+    margin-right: 10px;
+ 
+
+
+
+}
+
+.navigation_bar_items>a,
+a.setting {
+    text-decoration: none;
+    font-weight: 600px;
+    color: white;
+    width: 60px;
+    text-align: center;
+
+}
+
+.navigation_bar_items>a.about_us {
+    width: 82px;
+}
+
+
+
+
+
+.navigation_bar_items a:hover,
+.navigation_bar_items a:active {
+    background-color: white;
+    width: 60px;
+    
+    
+    border-radius: 10px;
+    color: black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* part 2 */
+
+
+
+.head {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  margin: 0;
+  margin-top: 27px;
+  color: white;
+  padding: 10px;
+
+
+}
+.information img { 
+    float: right;
+    height: 300px;
+}
+.information h1 {
+    background-color: violet;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    
+    font-weight: 900;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.information p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+/* team */
+
+.hea_1 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.team {
+ 
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 50%;
+    margin-left: 26%;
+    color: white;
+    text-align: center;
+
+}
+.team h3 {
+    font-size: 20px;
+    font-weight: 900;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+.team img {
+    height: 200px;
+
+
+
+
+}
+
+
+
+
+
+
+
+  /* myself */
+.myself {
+    margin: 0;
+    background-color: orange;
+}
+.myself h1 {
+   
+    text-shadow: 2px 2px 2px yellow;
+    color: blue;
+    display: flex;
+justify-content: center;
+}
+    
+
+ 
+
+.myself img{
+ margin-top: 1%;
+  margin-left: 43%;   
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.mem_1,.mem_2,.mem_3 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+
+
+.myself p{
+    color: rgb(248, 241, 241);
+    padding-bottom: 2%;
+    margin: 3%;
+    font-weight: 600;
+    text-align: center;
+}
+.decor {
+    display: flex;
+    justify-content: center;
+   
+}
+.decor a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    margin-top: 22px;
+}
+.decor p {
+    position: relative;
+    top: -11px;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.myself h1 {
+    padding-top: 10px;
+}
+
+
+

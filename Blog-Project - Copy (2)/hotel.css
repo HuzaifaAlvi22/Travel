@@ -1,0 +1,547 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#screen_loader {
+    background: rgb(38, 38, 38) url(/A\ useful/load-2487_256.gif) no-repeat center center;
+    background-size: 21%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 111;
+}
+
+
+
+.links a {
+    
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.links {
+    margin-top: -25%;
+}
+.links a {
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    width: 90px;
+    padding: 5px;
+    margin-top: 20%;
+    margin-left: 25%;
+    background-color: white;
+    
+    border-bottom: 2px solid black;
+
+}
+.border {
+    width: 70%;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    left: 15%;
+    background-color: white;
+}
+
+
+
+#open_menue {
+    position: relative;
+   left: 110%;
+   bottom: 17%; 
+
+}
+#open_menue button {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+}
+.items {
+    margin-top: 3%;
+    /* background:  rgb(3, 3, 108); */
+    background-color: blue;
+    width: 15%;
+    height: 75%;
+    position: relative;
+    left: -16%;
+    position: fixed;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+    box-shadow: 3px 3px 2px black;
+  
+    animation: start 0.7s ease-in 0s alternate ;
+}
+
+@keyframes start {
+    0% {
+
+        margin-top: 3%;
+        /* background:  rgb(3, 3, 108); */
+        background-color: blue;
+        width: 15%;
+        height: 75%;
+        position: relative;
+        left: 0%;
+        position: fixed;
+        border-top-right-radius: 4px ;
+        border-bottom-right-radius: 4px;
+        box-shadow: 3px 3px 2px black;
+        animation: start 1s ease-in 0s alternate ;
+    
+
+       
+    }
+    100% {
+
+        margin-top: 3%;
+        /* background:  rgb(3, 3, 108); */
+        background-color: blue;
+        width: 15%;
+        height: 75%;
+        position: relative;
+        left: -16%; 
+        position: fixed;
+        border-top-right-radius: 4px ;
+        border-bottom-right-radius: 4px;
+        box-shadow: 3px 3px 2px black;
+        animation: start 1s ease-in 0.1s alternate ;
+    
+
+
+    }
+
+    
+}
+
+
+#menu h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 15% ;
+    
+    
+    
+    
+}
+
+
+
+.slide  {
+    margin-top: 3%;
+      /* background:  rgb(3, 3, 108); */
+      background-color: blue;
+      width: 15%;
+      height: 75%;
+      position: relative;
+      left: 0%;
+      position: fixed;
+      border-top-right-radius: 4px ;
+      border-bottom-right-radius: 4px;
+      box-shadow: 3px 3px 2px black;
+    
+     
+      animation: faster 0.7s ease-in 0s  ;    
+  
+}
+@keyframes faster {
+  0% {
+      margin-top: 3%;
+      /* background:  rgb(3, 3, 108); */
+      background-color: blue;
+      width: 15%;
+      height: 75%;
+      position: relative;
+      left: -16%;
+      position: fixed;
+      border-top-right-radius: 4px ;
+      border-bottom-right-radius: 4px;
+      box-shadow: 3px 3px 2px black;
+      animation: move 1s ease 0s  ;    
+  
+
+
+  }
+  100% {
+      margin-top: 3%;
+      /* background:  rgb(3, 3, 108); */
+      background-color: blue;
+      width: 15%;
+      height: 75%;
+      position: relative;
+       
+      position: fixed;
+      border-top-right-radius: 4px ;
+      border-bottom-right-radius: 4px;
+      box-shadow: 3px 3px 2px black;
+      animation: move 1s ease 0s  ;    
+
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    padding-top: 20px;
+    background-image: url(/A\ useful/b_g.jpg);
+    background-size: cover;
+    height: 97vh;
+} 
+.heading_1 {
+    margin-top: 0;
+    display: flex;
+    text-shadow: 2px 2px 2px white;
+    
+    justify-content: center;
+    font-weight: 700;
+}
+.hotel_book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    margin-left: 40%;
+ border: 1px solid white; 
+    height: 70%;
+    margin-top: 4%;
+    width: 20%;
+    backdrop-filter: blur(10px);
+    /* background-color: rgb(44, 44, 120); */
+    animation: down 1.7s ease-in  0s alternate;
+}
+@keyframes down {
+    from {
+        margin-top: -50%;
+
+    }
+    to {
+       
+
+    }
+}
+.option_1,.option_2,.option_3 ,.time,.btn   {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 4px;
+    margin-top: 4px;
+    box-shadow: 1px 1px 1px black;
+
+     padding-top: 10px;
+    color: black;
+    background-color: white;
+    
+}
+
+.option_1 h1,.option_2 h1 ,.option_3 h1,.time h1{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: blue;
+    border-radius: 4px;
+    padding: 7px;
+    color: white;
+  
+    
+
+
+}
+.option_1 select,.option_2 input,.option_3 input,.time input {
+    position: relative;
+    top: -5px;
+    border: 2px solid black;
+   
+}
+.option_1 select {
+    width: 44%;
+
+}
+.btn {
+    width: 22%;
+    height: 7%;
+    margin-top: 7%;
+    margin-left: 40%;
+    padding: 0px 4px 0px 4px;
+    background-color: rgb(188, 255, 88);
+    border: none;
+    border-radius: 5px;
+}
+.option_1 {
+    margin-top: 0px;
+}
+
+.option_2 input{
+    width: 57%;
+}
+
+.option_3 input  {
+    width: 82%;
+    margin-top: 5px;
+}
+.time  input {
+    margin: 5px;
+}
+
+.option_3 p {
+    margin-top: -4px;
+    left:  3px;
+}
+.date_c {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.part_2  {
+    height: 151vh;
+    background-color: white;
+}
+#card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+    flex-wrap: wrap-reverse;
+}
+.part_2 h1 {
+    font-weight: 900;
+}
+.part_2 h1,h3 {
+    text-align: center;
+    
+    margin: 0;
+}
+.card_1 {
+    
+    margin: 1%;
+
+      display: flex;
+      flex-direction: column;
+    
+    height: 15%;
+    width: 13%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+
+}
+.card_1 button {
+    padding: 5px;
+    width: 40%;
+    
+    margin-left: 31%;
+    margin-top: 10%;
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 2px  palegreen;
+}
+.card_1 button:hover {
+    background-color: orange;
+    box-shadow: none;
+}
+.card_1 p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.card_1  img{
+    width: 100%;
+    height: 18vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.part_last {
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient( to right ,blue, red ) ;
+}
+.footer {
+    display: flex;
+    
+    
+ 
+}
+
+.About,.flight,.help,.security {
+
+
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 30px 10px;
+    color: black;
+
+}
+.About h1,.flight h1,.help h1,.security h1,.follow h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.About a,.flight a,.help a,.security a {
+    color: white;
+    text-decoration: none;
+    margin-top: 7px;
+    
+} 
+.About,.flight,.help {
+        border-right: 1px solid white;
+        border-right-width: 1px;
+        padding-right: 30px;
+    
+}
+.security {
+    border-right: 1px solid white;
+        border-right-width: 1px;
+        padding-right: 30px;
+    width: 12%;
+
+}
+.About a:hover,.flight a:hover,.help a:hover,.security a:hover {
+    background-color: white;
+    border-radius: 7px;
+    font-weight: 600;
+    color: black;
+    
+    padding-left: 5px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.follow {
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 16%;
+
+   
+    
+}
+.follow img {
+   
+    height: 40px;
+    width: 40px;
+    
+}
+.follow a {
+    display: flex;
+      color: white;
+    text-decoration: none;
+    
+    
+     
+}
+.follow h1 {
+    color: black;
+}
+.About,.flight,.help,.security,.follow {
+    margin-top: 2% ;
+
+}
+
+.insta,.facebook,.twitter {
+    margin: 5px;
+}
+.follow a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px white;
+}
+
+
+
+
+
+#top {
+    display: flex;
+    
+
+}
+
+#top button {
+    position: relative;
+    display: flex;
+    margin-top: -2%;
+    margin-left: 48%;
+    padding: 7px 27px 7px 27px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+   
+}
+
+hr {
+    width: 80%;
+    margin-top:  4%;   
+}
+#top button:hover {
+    border: none;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
