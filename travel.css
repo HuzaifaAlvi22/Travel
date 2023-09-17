@@ -9,7 +9,7 @@ body {
 
 
 #screen_loader {
-    background: rgb(38, 38, 38) url(/A\ useful/load-2487_256.gif) no-repeat center center;
+    background: rgb(38, 38, 38) url(A\ useful/load-2487_256.gif) no-repeat center center;
     background-size: 21%;
     height: 100vh;
     width: 100%;
@@ -202,7 +202,7 @@ body {
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url(/A\ useful/plane_background.jpg);
+    background-image: url(A\ useful/plane_background.jpg);
     background-size: contain;
 }
 .container h1 {
@@ -249,7 +249,7 @@ form input {
 .all_options {
     width: 50%;
     height: 50%;
-    background-image: url(/A\ useful/bg.jpg);
+    background-image: url(A\ useful/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;

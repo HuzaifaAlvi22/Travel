@@ -2,7 +2,7 @@
 
 
 #screen_loader {
-    background: rgb(38, 38, 38) url(/A\ useful/7Mpw.gif) no-repeat center center;
+    background: rgb(38, 38, 38) url(A\ useful/7Mpw.gif) no-repeat center center;
     background-size: 21%;
     height: 100vh;
     width: 100%;
@@ -401,21 +401,21 @@ section {
  
   
 .Louvre {
-    background-image: url(/A\ useful/lourve.jpg) ;
+    background-image: url(A\ useful/lourve.jpg) ;
 }
 .colosseum {
-    background-image: url(/A\ useful/colosseum-compressed.jpg);
+    background-image: url(A\ useful/colosseum-compressed.jpg);
 }
 .Netherlands {
-    background-image: url(/A\ useful/notherlands.jpg);
+    background-image: url(A\ useful/notherlands.jpg);
 
 }
 .liberty {
-    background-image: url(/A\ useful/staue-ofiliberty.jpg);
+    background-image: url(A\ useful/staue-ofiliberty.jpg);
 
 }
 .Vetican {
-    background-image: url(/A\ useful/vatican-museum-compressed.jpg);
+    background-image: url(A\ useful/vatican-museum-compressed.jpg);
 
 }
 .Louvre,.colosseum,.Netherlands,.Vetican,.liberty {
