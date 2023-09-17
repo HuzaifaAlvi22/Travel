@@ -72,34 +72,34 @@ card.appendChild(box_card)
 }
 
 let description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url =  "/A useful/hotel.jpg";
+let url =  "A useful/hotel.jpg";
 
 let description2 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url2 =  "/A useful/room_1.jpg";
+let url2 =  "A useful/room_1.jpg";
 
 let description3 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url3 =  "/A useful/room_2.jpg";
+let url3 =  "A useful/room_2.jpg";
 
 let description4 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url4 =  "/A useful/room_3.jpg";
+let url4 =  "A useful/room_3.jpg";
 
 let description5 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url5 =  "/A useful/room_4.jpg";
+let url5 =  "A useful/room_4.jpg";
 
 let description6 = "Available in Paris. It has 2 bed attached together. Suitable for luxury people"
-let url6 =  "/A useful/room_5.jpg";
+let url6 =  "A useful/room_5.jpg";
 
 let description7 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url7 =  "/A useful/room_6.jpg";
+let url7 =  "A useful/room_6.jpg";
 
 let description8 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url8 =  "/A useful/room_7.jpg";
+let url8 =  "A useful/room_7.jpg";
 
 let description9 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url9 =  "/A useful/room_8.jpg";
+let url9 =  "A useful/room_8.jpg";
 
 let description10 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a!"
-let url10 =  "/A useful/hotel-building.jpg";
+let url10 =  "A useful/hotel-building.jpg";
 
 making_card(description,url)
 making_card(description2,url2)
