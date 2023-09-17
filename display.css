@@ -401,21 +401,21 @@ section {
  
   
 .Louvre {
-    background-image: url(A\ useful/lourve.jpg) ;
+    background-image: url(/A\ useful/useful/lourve.jpg) ;
 }
 .colosseum {
-    background-image: url(A\ useful/colosseum-compressed.jpg);
+    background-image: url(/A\ useful/colosseum-compressed.jpg);
 }
 .Netherlands {
-    background-image: url(A\ useful/notherlands.jpg);
+    background-image: url(/A\ useful/notherlands.jpg);
 
 }
 .liberty {
-    background-image: url(A\ useful/staue-ofiliberty.jpg);
+    background-image: url(/A\ useful/staue-ofiliberty.jpg);
 
 }
 .Vetican {
-    background-image: url(A\ useful/vatican-museum-compressed.jpg);
+    background-image: url(/A\ useful/vatican-museum-compressed.jpg);
 
 }
 .Louvre,.colosseum,.Netherlands,.Vetican,.liberty {
